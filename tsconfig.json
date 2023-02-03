@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["ES6", "ESNext.Promise"],
+    "module": "CommonJS",
+    "allowJs": true,
+    "noImplicitAny": true,
+  },
+  "files": ["src/axiosCheerioRequest.ts"],
+  "exclude": ["node_modules"]
+}
